@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.084" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#09510C"
+            android:onClick="onStartConnect"
+            android:text="@string/start_button"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="115dp"
+            tools:layout_editor_absoluteY="79dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|center"
+            android:text="@string/player1"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="534dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/playerOneName"
+            android:layout_width="190dp"
+            android:layout_height="51dp"
+            android:hint="@string/player1text"
+            tools:layout_editor_absoluteX="219dp"
+            tools:layout_editor_absoluteY="528dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|center_horizontal"
+            android:text="@string/player2"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="595dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/playerTwoName"
+            android:layout_width="188dp"
+            android:layout_height="51dp"
+            android:hint="@string/player2text"
+            tools:layout_editor_absoluteX="219dp"
+            tools:layout_editor_absoluteY="589dp" />
+    </LinearLayout>
+
+</LinearLayout>

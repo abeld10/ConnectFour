@@ -1,0 +1,79 @@
+﻿Project 1 Submission
+
+
+Group Name:   Team 11
+
+
+When you have completed the project, complete the following form and include it with your project. Include this file as a text file in the folder with your project when you turn it in. 
+
+
+The below responsibilities are just generalizations, we never truly set who was in charge of what rather each individual took responsibility for what they felt most comfortable with.
+
+
+
+
+
+
+Member 1: Abel Diaz-Valdez
+
+
+Responsibility: Layout/User interface/ Menu Option/Button
+* Added a “New Game” menu option for the user
+* Start Game button to work and starts ConnectActivity
+* Made the layout of the game look nicer for a ‘user-friendly’ feel 
+* Created FinishedActivity where it displays who won and ‘New Game’ button
+* Made the surrender button logic working (starts FinishedActivity)
+* Changed theme layout for an ‘MSU’ look to the game
+* Pass some strings with intent for other activities.
+
+
+
+
+Member 2 : Ben Zuke
+
+
+Responsibility: Board Logic/Board display
+
+
+        - Used a 2d array as the back-end of the board using column/row logic
+        - Front end was each of the images drawn over spaced out using the width of the tiles as    
+the reference
+- Hit testing on each column was the logic used, a clickListener() was used to avoid the issues discussed with onClick()
+- Did not implement the dragging instead followed the spirit of being able to click anywhere on the board and have it drop to the bottom.
+- !!!THE ABOVE was approved in interact @267 And was key to how our board works.
+
+
+Member 3: Chirag Rudrangi
+
+
+Responsibility: Graphics/String logic/Assets
+
+
+* Introduced player strings logic to be implemented for the turns
+* Initial playscape into landscape mode implementation
+* Name interactivity and image drawables applied
+* Adding initial welcome text assets
+* Finalized doxygen for enhanced functionality references
+
+
+Member 4: Emily Goldwater
+
+
+Responsibility: Buttons/Save instance board
+* Worked on logic of done (and changing players with done button) and undo buttons
+* Save the instance of the board when switching between orientations
+   * flattened the 2d array, and then rebuilt it
+* Initial layout of main/connectview and drawing of board (specifically correctly calculating the width of the columns
+* Design aspects such as changing the background color of the buttons in landscape mode
+
+
+
+
+Member 5 : Jack Wood
+
+
+Responsibility: layout/design/debug/saveinstance players
+
+
+* handled main activity layout as well as landscape layout, along with handling player strings being saved upon click and defaulting to Player 1 and Player 2 if left empty.
+* added player strings along with start
